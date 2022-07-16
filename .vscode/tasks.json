@@ -1,31 +1,31 @@
-// {
-// 	"version": "2.0.0",
-// 	"tasks": [
-// 		{
-// 			"label": "Run css on startup",
-// 			"type": "shell",
-// 			"command": "cd Client/ && npm start",
-// 			"windows": {
-// 			  "command": "cd Client/ && npm start"
-// 			},
-// 			"presentation": {
-// 			  "reveal": "always",
-// 			  "panel": "new"
-// 			},
-// 			"runOptions": { "runOn": "folderOpen" }
-// 		  },
-// 		  {
-// 			"label": "Run dev on startup",
-// 			"type": "shell",
-// 			"command": "cd Server/ && npm run dev",
-// 			"windows": {
-// 			  "command": "cd Server/ && npm run dev"
-// 			},
-// 			"presentation": {
-// 			  "reveal": "always",
-// 			  "panel": "new"
-// 			},
-// 			"runOptions": { "runOn": "folderOpen" }
-// 		  },
-// 	]
-// }
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run css on startup",
+			"type": "shell",
+			"command": "cd Client/ && npm start",
+			"windows": {
+			  "command": "cd Client/ && npm start"
+			},
+			"presentation": {
+			  "reveal": "always",
+			  "panel": "new"
+			},
+			"runOptions": { "runOn": "folderOpen" }
+		  },
+		  {
+			"label": "Run dev on startup",
+			"type": "shell",
+			"command": "cd Server/ && npm run dev",
+			"windows": {
+			  "command": "cd Server/ && npm run dev"
+			},
+			"presentation": {
+			  "reveal": "always",
+			  "panel": "new"
+			},
+			"runOptions": { "runOn": "folderOpen" }
+		  },
+	]
+}
